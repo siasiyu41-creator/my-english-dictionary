@@ -105,7 +105,65 @@ function showView(view) {
     button.classList.toggle("active", button.dataset.view === view);
   });
 }
+async function loadPronunciation(word) {
+  const container = document.getElementById("audioPronunciation");
+  if (!container) return;
 
+  container.innerHTML = "<span>Loading pronunciation...</span>";
+
+  try {
+    const response = await fetch(
+      `https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(word)}`
+    );
+
+    if (!response.ok) {
+      container.innerHTML = "<span>No audio available.</span>";
+      return;
+    }
+
+    const data = await response.json();
+    const phonetics = data[0]?.phonetics || [];
+
+    const recordings = phonetics.filter(item => item.audio);
+
+    const uk = recordings.find(item =>
+      item.audio.includes("-uk.mp3") ||
+      item.audio.includes("/uk/")
+    );
+
+    const us = recordings.find(item =>
+      item.audio.includes("-us.mp3") ||
+      item.audio.includes("/us/")
+    );
+
+    const buttons = [];
+
+    if (uk) {
+      buttons.push(`
+        <button onclick="new Audio('${uk.audio}').play()">
+          🇬🇧 UK 🔊
+        </button>
+      `);
+    }
+
+    if (us) {
+      buttons.push(`
+        <button onclick="new Audio('${us.audio}').play()">
+          🇺🇸 US 🔊
+        </button>
+      `);
+    }
+
+    if (!buttons.length) {
+      buttons.push("<span>No regional audio available.</span>");
+    }
+
+    container.innerHTML = buttons.join(" ");
+
+  } catch (error) {
+    container.innerHTML = "<span>Could not load audio.</span>";
+  }
+}
 function showDetail(name) {
   const w = all().find(x =>
     x.word.toLowerCase() === name.toLowerCase()
