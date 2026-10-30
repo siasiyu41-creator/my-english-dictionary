@@ -105,82 +105,7 @@ function showView(view) {
     button.classList.toggle("active", button.dataset.view === view);
   });
 }
-async function loadPronunciation(word) {
-  const container = document.getElementById("audioPronunciation");
-  if (!container) return;
 
-  container.innerHTML = "<span>Loading pronunciation...</span>";
-
-  try {
-    const response = await fetch(
-  "https://my-english-dictionary-api.sia-siyu-41.workers.dev/pronunciation",
-  {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify({ word })
-  }
-);
-
-    if (!response.ok) {
-      container.innerHTML = "<span>No audio available.</span>";
-      return;
-    }
-
-    const data = await response.json();
-    const phonetics = data[0]?.phonetics || [];
-
-    const recordings = phonetics.filter(item => item.audio);
-console.log("All recordings:", recordings);
-    const uk = recordings.find(item =>
-      item.audio.includes("-uk.mp3") ||
-      item.audio.includes("/uk/")
-    );
-
-    const us = recordings.find(item =>
-      item.audio.includes("-us.mp3") ||
-      item.audio.includes("/us/")
-    );
-
-    const buttons = [];
-console.log("UK audio:", uk);
-console.log("US audio:", us);
-    if (uk) {
-      buttons.push(`
-        <button onclick="new Audio('${uk.audio}').play()">
-          🇬🇧 UK 🔊
-        </button>
-      `);
-    }
-
-    if (us && us.audio) {
-  buttons.push(`
-    <button id="playUS">
-      🇺🇸 US 🔊
-    </button>
-  `);
-}
-
-    if (!buttons.length) {
-      buttons.push("<span>No regional audio available.</span>");
-    }
-
-    container.innerHTML = buttons.join(" ");
-const playUS = document.getElementById("playUS");
-
-if (playUS && us?.audio) {
-  playUS.addEventListener("click", () => {
-    const audio = new Audio(us.audio);
-    audio.play().catch(error => {
-      console.error("Audio playback error:", error);
-    });
-  });
-}
-  } catch (error) {
-    container.innerHTML = "<span>Could not load audio.</span>";
-  }
-}
 function showDetail(name) {
   const w = all().find(x =>
     x.word.toLowerCase() === name.toLowerCase()
@@ -212,9 +137,7 @@ function showDetail(name) {
   ${escapeHTML(w.partOfSpeech || "")}
 </div>
 
-<div class="audio-pronunciation" id="audioPronunciation">
-  <span>Loading UK / US pronunciation...</span>
-</div>
+
       </div>
       <div class="visual"
         title="${escapeHTML(w.visual?.scene || "")}">
@@ -292,8 +215,7 @@ function showDetail(name) {
       </div>
     </div>
   `;
-  loadPronunciation(w.word);
-  console.log("Pronunciation function called:", w.word);
+  
   $("back").onclick = () => {
     $("detailView").hidden = true;
     $("wordsView").hidden = false;
