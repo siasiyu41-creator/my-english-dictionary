@@ -132,7 +132,7 @@ async function loadPronunciation(word) {
     const phonetics = data[0]?.phonetics || [];
 
     const recordings = phonetics.filter(item => item.audio);
-
+console.log("All recordings:", recordings);
     const uk = recordings.find(item =>
       item.audio.includes("-uk.mp3") ||
       item.audio.includes("/uk/")
