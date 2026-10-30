@@ -144,7 +144,8 @@ async function loadPronunciation(word) {
     );
 
     const buttons = [];
-
+console.log("UK audio:", uk);
+console.log("US audio:", us);
     if (uk) {
       buttons.push(`
         <button onclick="new Audio('${uk.audio}').play()">
