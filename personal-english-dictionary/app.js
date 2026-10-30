@@ -130,7 +130,10 @@ function showDetail(name) {
 
     <div class="detail-hero">
       <div>
-        <h2>${escapeHTML(w.word)}</h2>
+        <div class="word-title-row">
+  <h2>${escapeHTML(w.word)}</h2>
+  <span id="wordAudioButtons"></span>
+</div>
         <div class="pron">
   ${escapeHTML(w.pronunciation || "")}
   ${w.pronunciation ? " · " : ""}
