@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f7f7f5">
+<title>My English Dictionary</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#"><span class="mark">D</span><span>My English Dictionary</span></a>
+  <span class="tag">PERSONAL VOCABULARY</span>
+</header>
+<main>
+  <section class="intro">
+    <p class="eyebrow">YOUR WORDS, YOUR PROGRESS</p>
+    <h1>A clearer way<br>to learn English.</h1>
+    <p class="sub">An English-first dictionary built around the words you collect.</p>
+    <label class="search"><span>⌕</span><input id="search" type="search" placeholder="Search a word, meaning or collocation…" autocomplete="off"><kbd>/</kbd></label>
+    <div class="stats"><div><strong id="wordCount">17</strong><span>WORDS</span></div><div><strong id="reviewCount">0</strong><span>REVIEWED</span></div><div><strong id="dueCount">17</strong><span>TO EXPLORE</span></div></div>
+  </section>
+  <nav class="tabs" aria-label="Dictionary sections">
+    <button class="tab active" data-view="words">All words</button>
+    <button class="tab" data-view="review">Review</button>
+    <button class="tab" data-view="add">Add word</button>
+  </nav>
+  <section id="wordsView">
+    <div class="list-head"><div><p class="eyebrow">WORD INDEX</p><h2>Your collection</h2></div><select id="sort"><option value="az">A to Z</option><option value="recent">Recently added</option></select></div>
+    <div id="wordList" class="word-list"></div>
+    <p id="empty" class="empty" hidden>No matching words. Try another search.</p>
+  </section>
+  <section id="detailView" hidden></section>
+  <section id="reviewView" hidden>
+    <p class="eyebrow">ACTIVE RECALL</p><h2>Review your vocabulary</h2>
+    <p class="muted">Try to recall the meaning before revealing the answer.</p>
+    <div id="reviewCard" class="review-card"></div>
+  </section>
+  <section id="addView" hidden>
+    <p class="eyebrow">GROW YOUR COLLECTION</p><h2>Add a word</h2>
+    <p class="muted">New entries are saved in this browser. Export your collection regularly to keep a backup.</p>
+    <form id="addForm" class="form">
+      <label>Word<input required id="newWord" placeholder="e.g. sustainable"></label>
+      <label>Part of speech<input id="newPos" placeholder="e.g. adjective"></label>
+      <label>Core meaning<textarea required id="newMeaning" rows="2" placeholder="A short, clear English definition"></textarea></label>
+      <label>Example sentence<textarea id="newExample" rows="2" placeholder="A natural example sentence"></textarea></label>
+      <button class="primary" type="submit">Add to dictionary</button>
+    </form>
+    <div class="backup"><button id="exportBtn" class="secondary">Export JSON backup</button><label class="secondary filelabel">Import JSON<input id="importFile" type="file" accept="application/json"></label></div>
+  </section>
+</main>
+<footer><span>Built for direct English understanding.</span><span>Local-first · English-only</span></footer>
+<script src="app.js"></script>
+</body></html>

@@ -1,0 +1,818 @@
+[
+  {
+    "word": "notably",
+    "pronunciation": "/ˈnəʊ.tə.bli/",
+    "partOfSpeech": "adverb",
+    "coreMeaning": "especially; in a way that is important or worth noticing",
+    "definition": "Used to introduce an example or detail that deserves particular attention.",
+    "synonyms": [
+      {
+        "word": "especially",
+        "difference": "Highlights one item or point in particular."
+      },
+      {
+        "word": "particularly",
+        "difference": "Similar to especially; often adds emphasis."
+      },
+      {
+        "word": "significantly",
+        "difference": "Emphasises importance or a meaningful degree of change."
+      }
+    ],
+    "collocations": [
+      "most notably",
+      "notably absent",
+      "notably higher/lower",
+      "notably among"
+    ],
+    "examples": [
+      "Several factors contributed to the change, most notably the rise of online learning.",
+      "Women were notably absent from the early stages of the project."
+    ],
+    "wordFamily": [
+      "notable (adjective)",
+      "note (noun/verb)"
+    ],
+    "roots": {
+      "base": "note",
+      "explanation": "Related to the idea of noticing or paying attention."
+    },
+    "visual": {
+      "emoji": "🔎",
+      "scene": "A magnifying glass drawing attention to one important detail."
+    },
+    "ielts": [
+      "The most notable change was an increase in public transport use."
+    ]
+  },
+  {
+    "word": "notably absent",
+    "pronunciation": "/ˈnəʊ.tə.bli ˈæb.sənt/",
+    "partOfSpeech": "adjective phrase",
+    "coreMeaning": "missing in a noticeable or surprising way",
+    "definition": "Used when someone or something is missing, especially when people would expect it to be present.",
+    "synonyms": [
+      {
+        "word": "conspicuously absent",
+        "difference": "More emphatic; the absence is very obvious."
+      },
+      {
+        "word": "missing",
+        "difference": "Neutral and general."
+      },
+      {
+        "word": "largely absent",
+        "difference": "Mostly missing, but not necessarily completely."
+      }
+    ],
+    "collocations": [
+      "be notably absent from",
+      "remain notably absent",
+      "someone is notably absent"
+    ],
+    "examples": [
+      "Public transport was notably absent from the development plan.",
+      "Several key researchers were notably absent from the meeting."
+    ],
+    "wordFamily": [
+      "notably (adverb)",
+      "absent (adjective)",
+      "absence (noun)"
+    ],
+    "roots": {
+      "base": "absent",
+      "explanation": "The phrase combines 'notably' (noticeably) and 'absent' (not present)."
+    },
+    "visual": {
+      "emoji": "🚫",
+      "scene": "An empty space where an expected person or object should be."
+    },
+    "ielts": [
+      "Affordable housing is notably absent from many urban development plans."
+    ]
+  },
+  {
+    "word": "misunderstand",
+    "pronunciation": "/ˌmɪs.ʌn.dəˈstænd/",
+    "partOfSpeech": "verb",
+    "coreMeaning": "to understand something incorrectly",
+    "definition": "To form an incorrect idea about what someone says, means, or does.",
+    "synonyms": [
+      {
+        "word": "misinterpret",
+        "difference": "To understand the meaning of words, actions, or information incorrectly."
+      },
+      {
+        "word": "get wrong",
+        "difference": "Informal and conversational."
+      },
+      {
+        "word": "misread",
+        "difference": "Often means to interpret a situation or signal incorrectly."
+      }
+    ],
+    "collocations": [
+      "misunderstand someone's meaning",
+      "easily misunderstood",
+      "completely misunderstand"
+    ],
+    "examples": [
+      "I think you misunderstood what I was trying to say.",
+      "Cultural differences can sometimes lead people to misunderstand one another."
+    ],
+    "wordFamily": [
+      "misunderstanding (noun)",
+      "misunderstood (past tense/past participle)"
+    ],
+    "roots": {
+      "base": "understand",
+      "prefix": "mis-",
+      "explanation": "'mis-' means wrongly or incorrectly."
+    },
+    "visual": {
+      "emoji": "💬",
+      "scene": "Two people interpreting the same message in different ways."
+    },
+    "ielts": [
+      "People may misunderstand online information if they do not check its source."
+    ]
+  },
+  {
+    "word": "mislead",
+    "pronunciation": "/ˌmɪsˈliːd/",
+    "partOfSpeech": "verb",
+    "coreMeaning": "to cause someone to believe something incorrect",
+    "definition": "To make someone form a wrong impression or belief, intentionally or unintentionally.",
+    "synonyms": [
+      {
+        "word": "deceive",
+        "difference": "Usually suggests deliberately making someone believe something false."
+      },
+      {
+        "word": "misinform",
+        "difference": "To give someone incorrect information."
+      },
+      {
+        "word": "give a false impression",
+        "difference": "A clear phrase for creating an inaccurate idea."
+      }
+    ],
+    "collocations": [
+      "mislead the public",
+      "misleading information",
+      "be misled by",
+      "deliberately mislead"
+    ],
+    "examples": [
+      "Advertisements should not mislead consumers.",
+      "A misleading headline can cause readers to misunderstand a news story."
+    ],
+    "wordFamily": [
+      "misleading (adjective)",
+      "misled (past tense/past participle)",
+      "misinformation (noun)"
+    ],
+    "roots": {
+      "base": "lead",
+      "prefix": "mis-",
+      "explanation": "'mis-' means wrongly; 'lead' means guide or cause someone to go in a direction."
+    },
+    "visual": {
+      "emoji": "🧭",
+      "scene": "A signpost pointing someone in the wrong direction."
+    },
+    "ielts": [
+      "False information on social media can mislead the public."
+    ]
+  },
+  {
+    "word": "airfare",
+    "pronunciation": "/ˈeə.feər/",
+    "partOfSpeech": "noun",
+    "coreMeaning": "the price paid for air travel",
+    "definition": "The money a passenger pays for a journey by plane.",
+    "synonyms": [
+      {
+        "word": "air ticket price",
+        "difference": "A transparent alternative when focusing on the ticket cost."
+      },
+      {
+        "word": "flight cost",
+        "difference": "A broad, informal expression for the cost of a flight."
+      }
+    ],
+    "collocations": [
+      "cheap airfare",
+      "round-trip airfare",
+      "international airfare",
+      "airfare prices",
+      "pay for airfare"
+    ],
+    "examples": [
+      "Airfare is often more expensive during public holidays.",
+      "The scholarship covers accommodation but not airfare."
+    ],
+    "wordFamily": [
+      "air (noun)",
+      "fare (noun)"
+    ],
+    "roots": {
+      "base": "fare",
+      "explanation": "'Air' specifies the type of travel; 'fare' is the price paid for a journey."
+    },
+    "visual": {
+      "emoji": "✈️",
+      "scene": "A plane ticket showing the price of a flight."
+    },
+    "ielts": [
+      "The rising cost of airfare can discourage people from travelling abroad."
+    ]
+  },
+  {
+    "word": "fare",
+    "pronunciation": "/feər/",
+    "partOfSpeech": "noun / verb",
+    "coreMeaning": "the money paid for a journey; to perform or develop in a particular way",
+    "definition": "As a noun, the price of a journey on public transport. As a verb, to do or experience in a particular way.",
+    "synonyms": [
+      {
+        "word": "fee",
+        "difference": "A payment for a service or professional activity, not usually a transport journey."
+      },
+      {
+        "word": "perform",
+        "difference": "A more general verb for how someone does a task."
+      },
+      {
+        "word": "do",
+        "difference": "A simpler, more conversational alternative to the verb fare."
+      }
+    ],
+    "collocations": [
+      "bus/train/taxi fare",
+      "fare well",
+      "fare badly",
+      "fare better",
+      "fare well in an exam"
+    ],
+    "examples": [
+      "The bus fare has increased this year.",
+      "How did you fare in the interview?",
+      "Small businesses may fare better with lower operating costs."
+    ],
+    "wordFamily": [
+      "farewell (noun/interjection; different meaning)"
+    ],
+    "roots": {
+      "base": "fare",
+      "explanation": "The verb is used to describe how someone or something gets on in a situation."
+    },
+    "visual": {
+      "emoji": "🚌",
+      "scene": "A bus fare being paid, or a person being assessed after an exam."
+    },
+    "ielts": [
+      "Low transport fares can make public services more accessible."
+    ]
+  },
+  {
+    "word": "fare well",
+    "pronunciation": "/feər wel/",
+    "partOfSpeech": "verb phrase",
+    "coreMeaning": "to do well or be successful in a situation",
+    "definition": "To perform or develop successfully, especially under particular conditions.",
+    "synonyms": [
+      {
+        "word": "do well",
+        "difference": "More common and less formal."
+      },
+      {
+        "word": "thrive",
+        "difference": "Suggests growing or succeeding strongly."
+      },
+      {
+        "word": "perform well",
+        "difference": "Often focuses on measurable performance."
+      }
+    ],
+    "collocations": [
+      "fare well in",
+      "fare well during",
+      "fare better than",
+      "fare poorly under"
+    ],
+    "examples": [
+      "Students tend to fare well when they receive regular feedback.",
+      "The company fared better than expected during the difficult period."
+    ],
+    "wordFamily": [
+      "fare (verb)"
+    ],
+    "roots": {
+      "base": "fare",
+      "explanation": "A phrase using the verb 'fare' to describe performance or progress."
+    },
+    "visual": {
+      "emoji": "📈",
+      "scene": "A rising progress chart showing a positive outcome."
+    },
+    "ielts": [
+      "Children may fare better academically when schools provide supportive environments."
+    ]
+  },
+  {
+    "word": "farewell",
+    "pronunciation": "/ˌfeəˈwel/",
+    "partOfSpeech": "noun / interjection / adjective",
+    "coreMeaning": "goodbye, especially when someone is leaving",
+    "definition": "An expression or occasion of saying goodbye, sometimes before a long separation.",
+    "synonyms": [
+      {
+        "word": "goodbye",
+        "difference": "The everyday, general expression."
+      },
+      {
+        "word": "parting",
+        "difference": "Emphasises the act or moment of separating."
+      },
+      {
+        "word": "send-off",
+        "difference": "An event or gesture to wish someone well when they leave."
+      }
+    ],
+    "collocations": [
+      "farewell party",
+      "farewell speech",
+      "say farewell to",
+      "bid farewell to",
+      "a fond farewell"
+    ],
+    "examples": [
+      "The school organised a farewell party for the graduating students.",
+      "She bid farewell to her colleagues before moving abroad."
+    ],
+    "wordFamily": [
+      "fare (verb/noun; unrelated in meaning here)"
+    ],
+    "roots": {
+      "base": "farewell",
+      "explanation": "A fixed expression used when saying goodbye."
+    },
+    "visual": {
+      "emoji": "👋",
+      "scene": "People waving goodbye as someone leaves."
+    },
+    "ielts": [
+      "Moving abroad often means saying farewell to familiar routines and communities."
+    ]
+  },
+  {
+    "word": "deliver",
+    "pronunciation": "/dɪˈlɪv.ər/",
+    "partOfSpeech": "verb",
+    "coreMeaning": "to take something to a place; to give or produce something",
+    "definition": "To bring something to the person or place it is intended for; also to give a speech or produce a result.",
+    "synonyms": [
+      {
+        "word": "bring",
+        "difference": "A general everyday verb for taking something to someone."
+      },
+      {
+        "word": "provide",
+        "difference": "Focuses on making a service or resource available."
+      },
+      {
+        "word": "produce",
+        "difference": "Focuses on creating a result or outcome."
+      }
+    ],
+    "collocations": [
+      "deliver a package",
+      "deliver a speech",
+      "deliver a message",
+      "deliver results",
+      "deliver on a promise"
+    ],
+    "examples": [
+      "The company delivers packages across the country.",
+      "The new policy failed to deliver the expected results.",
+      "She delivered an impressive presentation."
+    ],
+    "wordFamily": [
+      "delivery (noun)",
+      "delivered (adjective/past participle)",
+      "deliverable (noun/adjective)"
+    ],
+    "roots": {
+      "base": "deliver",
+      "explanation": "Learn the verb with its common noun form 'delivery'."
+    },
+    "visual": {
+      "emoji": "📦",
+      "scene": "A courier bringing a parcel to someone's door."
+    },
+    "ielts": [
+      "Governments should deliver essential services to people in remote areas."
+    ]
+  },
+  {
+    "word": "depot",
+    "pronunciation": "/ˈdep.əʊ/ UK; /ˈdiː.poʊ/ US",
+    "partOfSpeech": "noun",
+    "coreMeaning": "a place where goods, vehicles, or supplies are stored or maintained",
+    "definition": "A building or site used as a base for storing, maintaining, collecting, or distributing things.",
+    "synonyms": [
+      {
+        "word": "warehouse",
+        "difference": "Usually a large building for storing goods."
+      },
+      {
+        "word": "distribution centre",
+        "difference": "Often a larger operation where goods are sorted and sent onward."
+      },
+      {
+        "word": "garage",
+        "difference": "A place where vehicles are stored or repaired; more specific."
+      }
+    ],
+    "collocations": [
+      "bus depot",
+      "rail depot",
+      "distribution depot",
+      "storage depot",
+      "supply depot"
+    ],
+    "examples": [
+      "The buses return to the depot at the end of the day.",
+      "The goods are stored at a local depot before delivery."
+    ],
+    "wordFamily": [
+      "depot (noun)"
+    ],
+    "roots": {
+      "base": "depot",
+      "explanation": "A word for a storage or operational base."
+    },
+    "visual": {
+      "emoji": "🏭",
+      "scene": "A large storage site with goods and delivery vehicles."
+    },
+    "ielts": [
+      "A regional depot can improve the efficiency of goods distribution."
+    ]
+  },
+  {
+    "word": "distribution depot",
+    "pronunciation": "/ˌdɪs.trɪˈbjuː.ʃən ˈdep.əʊ/",
+    "partOfSpeech": "noun phrase",
+    "coreMeaning": "a place where goods are received, stored, sorted, and sent out",
+    "definition": "A facility that acts as a link between producers, retailers, and customers by handling the movement of goods.",
+    "synonyms": [
+      {
+        "word": "distribution centre",
+        "difference": "Often larger and more centralised, sometimes highly automated."
+      },
+      {
+        "word": "logistics hub",
+        "difference": "Emphasises the coordination of transport and supply chains."
+      },
+      {
+        "word": "warehouse",
+        "difference": "Focuses more on storage than onward distribution."
+      }
+    ],
+    "collocations": [
+      "regional distribution depot",
+      "goods arrive at a depot",
+      "send goods from a depot"
+    ],
+    "examples": [
+      "Products are sent to a distribution depot before being delivered to shops.",
+      "The new depot will help the company distribute goods more efficiently."
+    ],
+    "wordFamily": [
+      "distribute (verb)",
+      "distribution (noun)",
+      "distributor (noun)"
+    ],
+    "roots": {
+      "base": "distribute",
+      "explanation": "'Distribute' means to give or send things to different places or people."
+    },
+    "visual": {
+      "emoji": "🚚",
+      "scene": "Boxes being sorted and loaded onto several delivery trucks."
+    },
+    "ielts": [
+      "Efficient distribution depots can reduce delivery times and transport costs."
+    ]
+  },
+  {
+    "word": "by virtue of",
+    "pronunciation": "/baɪ ˈvɜː.tʃuː əv/",
+    "partOfSpeech": "prepositional phrase",
+    "coreMeaning": "because of a particular quality, position, or advantage",
+    "definition": "Used to explain that something is possible or true because someone or something has a particular quality or status.",
+    "synonyms": [
+      {
+        "word": "because of",
+        "difference": "More common and less formal."
+      },
+      {
+        "word": "due to",
+        "difference": "Formal and often used to explain a cause."
+      },
+      {
+        "word": "owing to",
+        "difference": "Formal; introduces a reason or cause."
+      }
+    ],
+    "collocations": [
+      "by virtue of experience",
+      "by virtue of their position",
+      "by virtue of its location",
+      "by virtue of the fact that"
+    ],
+    "examples": [
+      "She gained the role by virtue of her experience.",
+      "The city attracts visitors by virtue of its natural scenery."
+    ],
+    "wordFamily": [
+      "virtue (noun)",
+      "virtuous (adjective)"
+    ],
+    "roots": {
+      "base": "virtue",
+      "explanation": "The phrase uses 'virtue' in the sense of a quality or advantage."
+    },
+    "visual": {
+      "emoji": "🏅",
+      "scene": "A person gaining an opportunity because of a particular strength."
+    },
+    "ielts": [
+      "Some people enjoy greater opportunities by virtue of their social and economic background."
+    ]
+  },
+  {
+    "word": "fair",
+    "pronunciation": "/feər/",
+    "partOfSpeech": "adjective / noun / adverb",
+    "coreMeaning": "just and reasonable; an event where goods or ideas are shown",
+    "definition": "Most commonly, fair means treating people equally and reasonably. It can also describe an exhibition or, in some contexts, light-coloured hair or skin.",
+    "synonyms": [
+      {
+        "word": "just",
+        "difference": "Emphasises what is morally or legally right."
+      },
+      {
+        "word": "reasonable",
+        "difference": "Emphasises what is sensible or acceptable."
+      },
+      {
+        "word": "impartial",
+        "difference": "Means not favouring one side."
+      },
+      {
+        "word": "equal",
+        "difference": "Means the same in amount or status; equal treatment is not always the same as fair treatment."
+      }
+    ],
+    "collocations": [
+      "fair treatment",
+      "fair competition",
+      "fair price",
+      "fair chance",
+      "fair share",
+      "to be fair",
+      "fair enough",
+      "play fair"
+    ],
+    "examples": [
+      "Everyone should have a fair chance to receive a good education.",
+      "The company needs to ensure fair treatment for all employees.",
+      "The city hosts an annual book fair."
+    ],
+    "wordFamily": [
+      "fairly (adverb)",
+      "fairness (noun)",
+      "unfair (adjective)",
+      "unfairly (adverb)"
+    ],
+    "roots": {
+      "base": "fair",
+      "explanation": "The adjective has several established senses; use context to identify the intended one."
+    },
+    "visual": {
+      "emoji": "⚖️",
+      "scene": "A balanced scale representing justice and equal consideration."
+    },
+    "ielts": [
+      "Governments should ensure fair access to education and healthcare."
+    ]
+  },
+  {
+    "word": "extend to",
+    "pronunciation": "/ɪkˈstend tuː/",
+    "partOfSpeech": "verb phrase",
+    "coreMeaning": "to reach, include, or continue up to a particular point or group",
+    "definition": "Used when something reaches a place, covers a group or topic, or continues until a particular time or limit.",
+    "synonyms": [
+      {
+        "word": "reach",
+        "difference": "Focuses on arriving at a place or point."
+      },
+      {
+        "word": "include",
+        "difference": "Focuses on containing someone or something as part of a group."
+      },
+      {
+        "word": "apply to",
+        "difference": "Focuses on rules, benefits, or effects being relevant to a group."
+      },
+      {
+        "word": "cover",
+        "difference": "Focuses on the range of topics or areas included."
+      }
+    ],
+    "collocations": [
+      "extend to all groups",
+      "extend to rural areas",
+      "extend beyond",
+      "extend from A to B",
+      "the benefits extend to"
+    ],
+    "examples": [
+      "The influence of social media extends to almost every aspect of daily life.",
+      "The benefits of higher education should extend to people from all backgrounds.",
+      "The effects of climate change extend beyond environmental issues."
+    ],
+    "wordFamily": [
+      "extend (verb)",
+      "extension (noun)",
+      "extensive (adjective)",
+      "extent (noun)"
+    ],
+    "roots": {
+      "base": "tend",
+      "prefix": "ex-",
+      "explanation": "'Extend' comes from a Latin root meaning to stretch out; 'ex-' suggests outward."
+    },
+    "visual": {
+      "emoji": "↔️",
+      "scene": "A line stretching outward to include more places or groups."
+    },
+    "ielts": [
+      "The benefits of public investment should extend to disadvantaged communities."
+    ]
+  },
+  {
+    "word": "facility",
+    "pronunciation": "/fəˈsɪl.ə.ti/",
+    "partOfSpeech": "noun",
+    "coreMeaning": "a place, building, service, or piece of equipment designed for a particular purpose",
+    "definition": "A place or set of resources designed to make a particular activity possible or easier.",
+    "synonyms": [
+      {
+        "word": "building",
+        "difference": "Focuses on the physical structure."
+      },
+      {
+        "word": "centre",
+        "difference": "A place where a particular activity or service is provided."
+      },
+      {
+        "word": "amenity",
+        "difference": "A useful or pleasant feature that makes a place more convenient."
+      }
+    ],
+    "collocations": [
+      "medical facility",
+      "research facility",
+      "sports facility",
+      "manufacturing facility",
+      "public facility"
+    ],
+    "examples": [
+      "The hospital has a modern medical facility.",
+      "The company opened a new research facility."
+    ],
+    "wordFamily": [
+      "facilities (plural noun)",
+      "facilitate (verb)",
+      "facilitation (noun)",
+      "facilitator (noun)"
+    ],
+    "roots": {
+      "base": "facil-",
+      "explanation": "Related to the idea of making something easy; compare 'facilitate'."
+    },
+    "visual": {
+      "emoji": "🏢",
+      "scene": "A purpose-built building equipped for a particular activity."
+    },
+    "ielts": [
+      "Rural communities often lack adequate medical facilities."
+    ]
+  },
+  {
+    "word": "facilities",
+    "pronunciation": "/fəˈsɪl.ə.tiz/",
+    "partOfSpeech": "plural noun",
+    "coreMeaning": "buildings, equipment, or services available for people to use",
+    "definition": "The resources, services, or places provided for a particular activity or group of people.",
+    "synonyms": [
+      {
+        "word": "amenities",
+        "difference": "Often refers to useful or comfortable features and services."
+      },
+      {
+        "word": "resources",
+        "difference": "A broader term for things available to support an activity."
+      },
+      {
+        "word": "services",
+        "difference": "Focuses on help or functions provided rather than physical places."
+      }
+    ],
+    "collocations": [
+      "public facilities",
+      "sports facilities",
+      "educational facilities",
+      "healthcare facilities",
+      "modern facilities",
+      "access to facilities"
+    ],
+    "examples": [
+      "The university provides excellent sports facilities.",
+      "Rural areas often lack basic public facilities."
+    ],
+    "wordFamily": [
+      "facility (singular noun)",
+      "facilitate (verb)"
+    ],
+    "roots": {
+      "base": "facil-",
+      "explanation": "Plural form of 'facility'; often used for a collection of services or resources."
+    },
+    "visual": {
+      "emoji": "🏫",
+      "scene": "A campus with several buildings and shared resources."
+    },
+    "ielts": [
+      "Governments should invest in public facilities such as libraries and parks."
+    ]
+  },
+  {
+    "word": "facilitate",
+    "pronunciation": "/fəˈsɪl.ɪ.teɪt/",
+    "partOfSpeech": "verb",
+    "coreMeaning": "to make an action or process easier",
+    "definition": "To help something happen more easily or smoothly.",
+    "synonyms": [
+      {
+        "word": "enable",
+        "difference": "Makes something possible."
+      },
+      {
+        "word": "assist",
+        "difference": "Provides help to a person or process."
+      },
+      {
+        "word": "simplify",
+        "difference": "Makes something less complicated."
+      },
+      {
+        "word": "ease",
+        "difference": "Reduces difficulty or effort."
+      }
+    ],
+    "collocations": [
+      "facilitate communication",
+      "facilitate access to",
+      "facilitate learning",
+      "facilitate interaction",
+      "facilitate the development of"
+    ],
+    "examples": [
+      "Technology can facilitate communication between people.",
+      "Better transport systems can facilitate economic development."
+    ],
+    "wordFamily": [
+      "facility (noun)",
+      "facilities (plural noun)",
+      "facilitation (noun)",
+      "facilitator (noun)"
+    ],
+    "roots": {
+      "base": "facil-",
+      "explanation": "From a Latin root meaning 'easy'; 'facilitate' means to make easier."
+    },
+    "visual": {
+      "emoji": "🛠️",
+      "scene": "A tool removing obstacles so a process can happen more easily."
+    },
+    "ielts": [
+      "Modern technology can facilitate access to educational resources."
+    ]
+  }
+]
