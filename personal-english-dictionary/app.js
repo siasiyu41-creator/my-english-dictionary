@@ -276,6 +276,7 @@ function showDetail(name) {
     </div>
   `;
   loadPronunciation(w.word);
+  console.log("Pronunciation function called:", w.word);
   $("back").onclick = () => {
     $("detailView").hidden = true;
     $("wordsView").hidden = false;
