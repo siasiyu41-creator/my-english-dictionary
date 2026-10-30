@@ -323,7 +323,7 @@ function showDetail(name) {
 
 async function generateWord(input) {
   const word = input.trim();
-
+console.log("GENERATE WORD RUNNING:", word);
   if (!word || generating) return;
 
   const existing = all().find(w =>
