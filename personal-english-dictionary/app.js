@@ -275,7 +275,7 @@ function showDetail(name) {
       </div>
     </div>
   `;
-
+  loadPronunciation(w.word);
   $("back").onclick = () => {
     $("detailView").hidden = true;
     $("wordsView").hidden = false;
