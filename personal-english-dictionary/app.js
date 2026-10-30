@@ -113,8 +113,15 @@ async function loadPronunciation(word) {
 
   try {
     const response = await fetch(
-      `https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(word)}`
-    );
+  "https://my-english-dictionary-api.sia-siyu-41.workers.dev/pronunciation",
+  {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({ word })
+  }
+);
 
     if (!response.ok) {
       container.innerHTML = "<span>No audio available.</span>";
