@@ -167,7 +167,16 @@ console.log("US audio:", us);
     }
 
     container.innerHTML = buttons.join(" ");
+const playUS = document.getElementById("playUS");
 
+if (playUS && us?.audio) {
+  playUS.addEventListener("click", () => {
+    const audio = new Audio(us.audio);
+    audio.play().catch(error => {
+      console.error("Audio playback error:", error);
+    });
+  });
+}
   } catch (error) {
     container.innerHTML = "<span>Could not load audio.</span>";
   }
