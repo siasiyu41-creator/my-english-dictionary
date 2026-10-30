@@ -154,13 +154,13 @@ console.log("US audio:", us);
       `);
     }
 
-    if (us) {
-      buttons.push(`
-        <button onclick="new Audio('${us.audio}').play()">
-          🇺🇸 US 🔊
-        </button>
-      `);
-    }
+    if (us && us.audio) {
+  buttons.push(`
+    <button id="playUS">
+      🇺🇸 US 🔊
+    </button>
+  `);
+}
 
     if (!buttons.length) {
       buttons.push("<span>No regional audio available.</span>");
