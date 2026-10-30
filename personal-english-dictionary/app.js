@@ -132,10 +132,14 @@ function showDetail(name) {
       <div>
         <h2>${escapeHTML(w.word)}</h2>
         <div class="pron">
-          ${escapeHTML(w.pronunciation || "")}
-          ${w.pronunciation ? " · " : ""}
-          ${escapeHTML(w.partOfSpeech || "")}
-        </div>
+  ${escapeHTML(w.pronunciation || "")}
+  ${w.pronunciation ? " · " : ""}
+  ${escapeHTML(w.partOfSpeech || "")}
+</div>
+
+<div class="audio-pronunciation" id="audioPronunciation">
+  <span>Loading UK / US pronunciation...</span>
+</div>
       </div>
       <div class="visual"
         title="${escapeHTML(w.visual?.scene || "")}">
