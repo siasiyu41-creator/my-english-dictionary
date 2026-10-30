@@ -105,7 +105,82 @@ function showView(view) {
     button.classList.toggle("active", button.dataset.view === view);
   });
 }
+async function loadWordAudio(word) {
+  const container = document.getElementById("wordAudioButtons");
+  if (!container) return;
 
+  container.innerHTML = "";
+
+  try {
+    const params = new URLSearchParams({
+      action: "parse",
+      page: word,
+      prop: "text",
+      format: "json",
+      origin: "*"
+    });
+
+    const response = await fetch(
+      "https://en.wiktionary.org/w/api.php?" + params
+    );
+
+    if (!response.ok) return;
+
+    const data = await response.json();
+    const html = data.parse?.text?.["*"];
+
+    if (!html) return;
+
+    const doc = new DOMParser().parseFromString(html, "text/html");
+    const players = [...doc.querySelectorAll("audio")];
+
+    const recordings = players.map(player => {
+      const source = player.querySelector("source");
+      const url = player.getAttribute("src") || source?.getAttribute("src");
+
+      const context =
+        player.closest("li")?.textContent ||
+        player.parentElement?.textContent ||
+        "";
+
+      return {
+        url: url ? new URL(url, "https://en.wiktionary.org").href : "",
+        context
+      };
+    }).filter(item => item.url);
+
+    const uk = recordings.find(item =>
+      /\b(UK|RP|British|Received Pronunciation)\b/i.test(item.context)
+    );
+
+    const us = recordings.find(item =>
+      /\b(US|GA|General American)\b/i.test(item.context)
+    );
+
+    function addButton(label, recording) {
+      if (!recording) return;
+
+      const button = document.createElement("button");
+      button.textContent = label + " 🔊";
+      button.type = "button";
+
+      button.addEventListener("click", () => {
+        const audio = new Audio(recording.url);
+        audio.play().catch(error => {
+          console.error("Audio playback failed:", error);
+        });
+      });
+
+      container.appendChild(button);
+    }
+
+    addButton("🇬🇧 UK", uk);
+    addButton("🇺🇸 US", us);
+
+  } catch (error) {
+    console.error("Pronunciation lookup failed:", error);
+  }
+}
 function showDetail(name) {
   const w = all().find(x =>
     x.word.toLowerCase() === name.toLowerCase()
@@ -218,7 +293,7 @@ function showDetail(name) {
       </div>
     </div>
   `;
-  
+    loadWordAudio(w.word);
   $("back").onclick = () => {
     $("detailView").hidden = true;
     $("wordsView").hidden = false;
